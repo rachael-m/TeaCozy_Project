@@ -28,6 +28,9 @@ header {
 .logo {
     height: 50px;
     width: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
 }
 
 ul.nav {
