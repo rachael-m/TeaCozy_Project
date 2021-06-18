@@ -15,7 +15,7 @@ body{
 
 header {
     display: flex;
-    margin: 9.5px 10px;
+    height: 69px;
     border-bottom: 1px solid seashell;
     position: sticky;
     top: 0;
