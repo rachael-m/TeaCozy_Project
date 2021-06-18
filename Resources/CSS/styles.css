@@ -1,0 +1,138 @@
+html {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+/* Navigation */
+
+header {
+    display: flex;
+    margin: 9.5px 10px;
+    border-bottom: 1px solid seashell;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    background-color: black;
+    opacity: 1;
+    
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+}
+
+ul.nav {
+    list-style: none;
+    
+}
+
+ul.nav li {
+    text-decoration: underline;
+    display: inline;
+}
+
+a {
+    color: seashell;
+}
+
+/* Mission */
+
+main {
+    margin-top: 75px;
+}
+
+.mission {
+    background-image: url("../Images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mission-text {
+    background-color: black;
+}
+
+/* Featured Teas */
+
+.container {
+    max-width: 1000px;
+}
+
+.feature {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.featureitem {
+    margin: 10px;
+}
+
+/* Locations */
+
+.container2 {
+    background-image: url(../Images/locations.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 1200px;
+    padding-top: 30px;
+}
+
+.container2 h2{
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.locations {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.downtown,
+.bayside,
+.oakdale {
+    background-color: black;
+    opacity: 1;
+    width: 300px;
+    height: 300px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Footer */
+
+footer .left {
+    text-align: left;
+    margin-left: 20px;
+}
+
+footer {
+    text-align: center;
+    height: 200px;
+}
